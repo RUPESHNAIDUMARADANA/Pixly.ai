@@ -1,46 +1,43 @@
-# ✨ ImageGenie 🧞 ✨
+# ✨ Pixly — Your Image Upload Genie 🧞‍♂️  
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://imagegenie.streamlit.app/)
 
-Banish image upload woes with a single wish! ImageGenie magically transforms your images to fit those pesky website requirements. 🪄
+Say goodbye to upload headaches and hello to perfectly sized images with **Pixly**! 🪄 Whether you're dealing with weird file size limits or rigid aspect ratios, Pixly takes the stress out of formatting your images. Just paste the rules, upload your image, and let the genie do the rest!
 
-Tired of deciphering confusing image size limits and restrictions? 🤔 Let ImageGenie do the heavy lifting! Just paste the rules, upload your pic, and watch the magic unfold. 💫
+---
 
-## ✨ Features ✨
+## 🌈 Features at a Glance  
 
-- **🧞 Wish Granted:** Paste the image requirements from any website.
-- **🪄 Instant Transformation:** ImageGenie auto-adjusts your image size and quality.
-- **🔮 Live Preview:** See the results in real-time as you tweak the settings.
-- **🚀 Download Ready:** Download your perfectly sized image with a click.
+- **🧞 Grant Your Wish:** Paste image requirements from any website.
+- **✨ Magic Makeover:** Pixly auto-adjusts your image's size, format, and quality.
+- **🔍 Real-Time Preview:** Instantly see the transformed image before downloading.
+- **📥 One-Click Download:** Get your optimized image, ready to upload anywhere.
 
-## ✨ How to Make a Wish ✨
+---
 
-1. **📝 Write Your Wish:** Paste those tricky image instructions into the box.
-2. **🖼️ Upload Your Image:** Choose the picture you want to transform.
-3. **👀 Behold the Magic:** ImageGenie works its wonders, showing you the new, compliant image.
-4. **📥 Download Your Treasure:** Click the button to save your perfectly-sized masterpiece.
+## 🪄 How to Use Pixly  
 
-## 🛠️ Installation 🛠️
+1. **📝 Describe Your Wish:** Paste the image requirements into the input box (e.g. “Max 2MB, 1080x1080px, JPG”).
+2. **📸 Upload Your Image:** Choose the image you'd like to transform.
+3. **🌟 Watch the Magic:** Pixly applies the transformations automatically.
+4. **✅ Download the Result:** Save your new image, perfectly tailored to the requirements.
 
-1. **Clone the repository:** `git clone https://github.com/your-username/ImageGenie.git`
-2. **Install dependencies:** `pip install -r requirements.txt`
-3. **Grant Wishes:** `streamlit run app.py`
+---
 
-## 🚀 Deploy to the Cloud 🚀
+## 🛠️ Local Setup  
 
-- **GitHub:** Push your code, and let ImageGenie grant wishes to the world!
-- **Streamlit Community Cloud:** Share your magic with a wider audience.
+To run Pixly on your local machine:
 
-## 📜 Disclaimer 📜
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/Pixly.git
 
-ImageGenie is your helpful assistant, but it can't replace a good understanding of image editing. Always double-check that your final image meets the exact requirements before submitting it.
+# 2. Navigate into the project
+cd Pixly
 
-## 🌟 The Magic Behind the Scenes 🌟
+# 3. Install the dependencies
+pip install -r requirements.txt
 
-ImageGenie is powered by:
+# 4. Run the app
+streamlit run app.py
 
-- **Streamlit:** The framework that brings our genie to life. ✨
-- **Pillow (PIL):** The image manipulation library that makes the magic happen. 🪄
-- **Google Gemini:** The AI model that deciphers your wishes and guides the transformation. 🧠
-
-Let ImageGenie be your trusty sidekick in the world of image uploads! ✨
